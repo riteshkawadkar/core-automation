@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Sauce Lab Sanity Suite" parallel="tests" thread-count="4" data-provider-thread-count="4">
+    <parameter name="browser" value="chrome"/>
+    <test verbose="2" name="Login To App" parallel="methods" >
+        <classes>
+            <class name="functional.LoginToApplicationTest"/>
+        </classes>
+    </test>
+    <test verbose="2" name="Product Page">
+        <classes>
+            <class name="functional.ProductsPageTest"/>
+        </classes>
+    </test>
+    <test verbose="2" name="Add To Cart">
+        <classes>
+            <class name="functional.AddToCartTest"/>
+        </classes>
+    </test>
+</suite>

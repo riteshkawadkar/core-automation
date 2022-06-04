@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cf1cad95-1c4e-421e-aeaf-ae8820f1afff" name="Changes" comment="First Draft">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/origamiitlab/base/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/origamiitlab/base/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/origamiitlab/manager/DriverFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/origamiitlab/objects/page/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/origamiitlab/objects/page/ProductsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/login.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/testng.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/data/LoginData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/functional/AddToCartTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/functional/LoginToApplicationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/functional/ProductsPageTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExportTestResults" outputFolder="$PROJECT_DIR$" userTempatePath="" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectId" id="29yjLJtpoaRADrOTHuqtUVDdHYQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/rites/IdeaProjects/coreautomation/src/main/resources&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;JAVA&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.origamiitlab.objects.page" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\rites\IdeaProjects\coreautomation\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\rites\IdeaProjects\coreautomation\src\main\resources" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.origamiitlab.objects.page" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.C:/Users/rites/IdeaProjects/coreautomation/src/main/resources/testng.xml">
+    <configuration name="AddToCartTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="coreautomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="functional.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="functional" />
+      <option name="MAIN_CLASS_NAME" value="functional.AddToCartTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/rites/IdeaProjects/coreautomation/src/main/resources/login.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="coreautomation" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/resources/login.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/rites/IdeaProjects/coreautomation/src/main/resources/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="coreautomation" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/resources/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginToApplicationTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="coreautomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="functional.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="functional" />
+      <option name="MAIN_CLASS_NAME" value="functional.LoginToApplicationTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginToApplicationTest.test_perform_login_with_all_user_type" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="coreautomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="functional.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="functional" />
+      <option name="MAIN_CLASS_NAME" value="functional.LoginToApplicationTest" />
+      <option name="METHOD_NAME" value="test_perform_login_with_all_user_type" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.C:/Users/rites/IdeaProjects/coreautomation/src/main/resources/testng.xml" />
+        <item itemvalue="TestNG.AddToCartTest" />
+        <item itemvalue="TestNG.LoginToApplicationTest" />
+        <item itemvalue="TestNG.C:/Users/rites/IdeaProjects/coreautomation/src/main/resources/login.xml" />
+        <item itemvalue="TestNG.LoginToApplicationTest.test_perform_login_with_all_user_type" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cf1cad95-1c4e-421e-aeaf-ae8820f1afff" name="Changes" comment="" />
+      <created>1654092163395</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1654092163395</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First Draft" />
+    <option name="LAST_COMMIT_MESSAGE" value="First Draft" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/coreautomation$C__Users_rites_IdeaProjects_coreautomation_src_main_resources_testng_xml.ic" NAME="$PROJECT_DIR$/src/main/resources/testng.xml Coverage Results" MODIFIED="1654118070397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/coreautomation$LoginToApplicationTest.ic" NAME="LoginToApplicationTest Coverage Results" MODIFIED="1654107559359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/coreautomation$LoginTest_test_perform_login_with_standard_user.ic" NAME="LoginTest.test_perform_login_with_standard_user Coverage Results" MODIFIED="1654095026971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
