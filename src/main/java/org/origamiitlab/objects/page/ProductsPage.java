@@ -8,6 +8,7 @@ import org.origamiitlab.base.BasePage;
 import org.origamiitlab.manager.DriverFactory;
 
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class ProductsPage extends BasePage {
 
@@ -31,6 +32,10 @@ public class ProductsPage extends BasePage {
 
     public int get_count_of_inventory_items() {
         return inventory_items.size();
+    }
+
+    public List<String> get_list_inventory() {
+        return inventory_items.stream().map(e -> e.getText()).collect(Collectors.toList());
     }
 
     public int get_count_of_add_to_cart_buttons() {
