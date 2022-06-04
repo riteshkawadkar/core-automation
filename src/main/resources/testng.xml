@@ -2,6 +2,10 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
 <suite name="Sauce Lab Sanity Suite" parallel="tests" thread-count="4" data-provider-thread-count="4">
+    <listeners>
+        <listener class-name="org.origamiitlab.listeners.TestNGListeners"></listener>
+    </listeners>
+
     <parameter name="browser" value="chrome"/>
     <test verbose="2" name="Login To App" parallel="methods" >
         <classes>

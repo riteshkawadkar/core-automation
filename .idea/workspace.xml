@@ -5,8 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf1cad95-1c4e-421e-aeaf-ae8820f1afff" name="Changes" comment="First Draft">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/origamiitlab/listeners/TestNGListeners.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/origamiitlab/manager/ApplicationLogManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/MyOwnReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/MyOwnReport.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/origamiitlab/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/origamiitlab/base/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/origamiitlab/manager/ReportManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/origamiitlab/manager/ReportManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/functional/AddToCartTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/functional/AddToCartTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/functional/LoginToApplicationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/functional/LoginToApplicationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/functional/ProductsPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/functional/ProductsPageTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
