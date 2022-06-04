@@ -43,7 +43,7 @@ public class BaseTest {
 
     @AfterMethod(alwaysRun = true)
     public void tearDown(ITestResult result) throws IOException {
-
+        //TODO: Move this code to Listener
         if(result.getStatus() == ITestResult.FAILURE) {
             test.log(Status.FAIL,result.getThrowable());
 
