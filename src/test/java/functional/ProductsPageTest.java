@@ -1,5 +1,6 @@
 package functional;
 
+import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.markuputils.Markup;
 import com.aventstack.extentreports.markuputils.MarkupHelper;
 import org.origamiitlab.base.BaseTest;
@@ -19,7 +20,7 @@ public class ProductsPageTest extends BaseTest {
         int count = loginPage
                     .perform_login("standard_user", "secret_sauce")
                     .get_count_of_inventory_items();
-
+//        test.log(Status.INFO,"Dummy Step");
         Assert.assertEquals(count, 6);
     }
 
@@ -30,7 +31,9 @@ public class ProductsPageTest extends BaseTest {
                         .perform_login("standard_user", "secret_sauce")
                         .get_list_inventory();
 
-        test.fail(MarkupHelper.createOrderedList(invetories));
+        test.get().log(Status.INFO,MarkupHelper.createOrderedList(invetories));
+        test.get().log(Status.INFO,"Dummy Step");
+
         Assert.assertTrue(false);
     }
 
@@ -41,6 +44,7 @@ public class ProductsPageTest extends BaseTest {
                 .perform_login("standard_user", "secret_sauce")
                 .get_count_of_add_to_cart_buttons();
 
+        test.get().log(Status.INFO,"Dummy Step");
         Assert.assertEquals(count, 6);
     }
 

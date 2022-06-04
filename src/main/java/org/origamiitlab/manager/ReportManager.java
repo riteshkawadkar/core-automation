@@ -4,11 +4,15 @@ import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
+import org.origamiitlab.base.BasePage;
+import org.origamiitlab.base.BaseTest;
 
-public class ReportManager {
-    private static ExtentSparkReporter sparkReporter;
+public class ReportManager extends BaseTest {
 
-    public static ExtentSparkReporter getSparkReporter() {
+    protected static ExtentSparkReporter sparkReporter;
+    protected static ExtentReports extent;
+
+    public static ExtentReports getExtentReport() {
         sparkReporter = new ExtentSparkReporter(System.getProperty("user.dir") +"/reports/MyOwnReport.html");
 
         sparkReporter.config().setDocumentTitle("Core Automation");
@@ -16,7 +20,14 @@ public class ReportManager {
         sparkReporter.config().setTimeStampFormat("EEEE, MMMM dd, yyyy, hh:mm a '('zzz')'");
         sparkReporter.config().setTheme(Theme.DARK);
 
-        return sparkReporter;
+        // Initialize ExtentReport and attach it to reporter
+        extent = new ExtentReports();
+        extent.attachReporter(sparkReporter);
 
+        return extent;
     }
+
+
+
+
 }

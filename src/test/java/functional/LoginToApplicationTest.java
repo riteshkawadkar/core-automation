@@ -16,8 +16,8 @@ public class LoginToApplicationTest extends BaseTest  {
             dataProviderClass = LoginData.class,
             description = "Run 4 set of correct username and password data in parallel and check if we can login")
     public void test_perform_login_with_all_user_type(String username, String password, String message) {
-        test.log(Status.INFO,"Starting the tests : " + test.getStatus());
-        test.assignCategory("P1");
+        test.get().log(Status.INFO,"Starting the tests : " + test.get().getStatus());
+        test.get().assignCategory("P1");
 
         loginPage  = new LoginPage();
 
@@ -32,8 +32,8 @@ public class LoginToApplicationTest extends BaseTest  {
             dataProviderClass = LoginData.class,
             description = "Run 4 set of incorrect username and password data in parallel and check if get expected error message")
     public void test_validate_error_with_incorrect_credentials(String username, String password, String message) {
-        test.log(Status.INFO,"Starting the tests : " + test.getStatus());
-        test.assignCategory("P1");
+        test.get().log(Status.INFO,"Starting the tests : " + test.get().getStatus());
+        test.get().assignCategory("P1");
 
         loginPage  = new LoginPage();
         Assert.assertEquals(loginPage
